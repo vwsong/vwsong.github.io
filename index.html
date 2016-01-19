@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title>Vincent Song | Programmer | Designer | Student </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Hind:500|Bitter' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="css/images/browserpic.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="css/images/browserpic.png" sizes="32x32">
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+    <script>
+        $(document).ready(function () {
+            // cache the window object
+            $window = $(window);
+
+            $('section[data-type="background"]').each(function () {
+                // declare the variable to affect the defined data-type
+                var $scroll = $(this);
+
+                $(window).scroll(function () {
+                    // HTML5 proves useful for helping with creating JS functions!
+                    // also, negative value because we're scrolling upwards                             
+                    var yPos = -($window.scrollTop() / $scroll.data('speed'));
+
+                    // background position
+                    var coords = '50% ' + yPos + 'px';
+
+                    // move the background
+                    $scroll.css({
+                        backgroundPosition: coords
+                    });
+                }); // end window scroll
+            }); // end section function
+        }); // close out script
+    </script>
+
+</head>
+
+<body>
+
+    <section class="firstbackground inner ">
+        <section class="logo animated fadeInDown">
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8- col-sm-offset fixedText">
+                    <img class="picture img-circle animated fadeInUp" src="images/profilepicture2.jpg" width="170" height="170" />
+                    <h1 class="hello animated fadeInUp fontBitter">Hi, I'm Vincent.</h1>
+                    <hr class="hello animated fadeInUp" width="60%">
+                    <h1 class="description animated fadeInUp fontBitter"> University of Maryland Computer Science major</h1>
+                    <h1 class="description animated fadeInUp fontBitter"> Web, Mobile, and Software Developer</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="jumbotron vertical-center" style="background-color:white;">
+        <h1 class="fontBitter"> About me</h1>
+        <hr width="60%">
+        <div class="container">
+            <p class="smallgraytext"> I'm a computer science, business student, and startup enthusiast from Timonium, Maryland. Always down to learn new things. I like creating Android apps, appealing and responsive web pages, and interactive web apps. I enjoy playing badminton, <a href="http://data.typeracer.com/pit/profile?user=ibevincent">typing fast</a>, browsing <a href="https://www.quora.com/Vincent-Song-4">Quora</a>, and listening to <a href="https://open.spotify.com/user/vincentwsong">music</a>.</p>
+        </div>
+
+    </header>
+
+    <section class="secondbackground secondinner jumbotron">
+        <div class="container">
+            <img class="img-responsive centeringimage" src="images/umdlogo2.png" />
+            <br/>
+            <hr width="60%">
+            <p class="text-center description fontBitter">Class of 2019</p>
+            <p class="text-center description fontBitter">Major: Computer Science</p>
+            <p class="text-center description fontBitter">Minor: Business Analytics</p>
+        </div>
+
+    </section>
+    <div class="jumbotron vertical-center" style="background-color:white;">
+        <h1 class="fontBitter"> Work Experience</h1>
+        <hr width="60%">
+        <p class="text-center"> </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="text-center"> </p>
+                    <p class="text-center"><b>Avesis Insurance Inc.</b>
+                    </p>
+                    <p class="text-center"><u>Intern Software Developer</u>
+                    </p>
+                    <p class="text-center">Created .NET web forms for HR department</p>
+                    <p class="text-center">Developed frontend pages for company website</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-center"> </p>
+                    <p class="text-center"><b>Baltimore County Public Schools</b>
+                    </p>
+                    <p class="text-center"><u>AP Computer Science TA</u>
+                    </p>
+                    <p class="text-center">Taught AP Computer Science concepts and Java programming language</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron vertical-center" style="background-color:#FDFDFD;">
+        <h1 class="fontBitter"> Relevant Skills </h1>
+        <hr width="60%">
+        <br/>
+        <p class="text-center"> </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fa fa-laptop fa-4x"></i>
+                    <hr width="60%">
+                    <p>C#/ASP.NET/SQL</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa fa-code fa-4x"></i>
+                    <hr width="60%">
+                    <p>Django</p>
+                    <p>HTML/CSS/Javascript</p>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa fa-mobile fa-4x"></i>
+                    <hr width="60%">
+                    <p>Android</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron vertical-center" style="background-color:black">
+        <h1 class="fontBitter fontGray"> Get in touch </h1>
+        <hr width="60%">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2 ">
+
+                <p class="text-center"> </p>
+                <div class="container">
+                    <div class="container">
+                        <p class="fontBitter fontGray"><b>I'm a fast responder! Shoot me an email, I'll be sure to reply quickly.</b>
+                        </p>
+                    </div>
+                    <p class="fontBitter fontBlue"><i class="fa fa-envelope fa-x padding"></i><a href="mailto:vincentwsong@gmail.com">vincentwsong@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <br/>
+                <p class="fontBitter fontGray">
+                    or, find me on any of these networks.
+                </p>
+                <a href="http://www.instagram.com/vwsong"><i class="fa fa-instagram fa-3x padding"></i></a>
+                <a href="http://www.github.com/vwsong"><i class="fa fa-github fa-3x padding"></i></a>
+                <a href="https://open.spotify.com/user/vincentwsong"><i class="fa fa-spotify fa-3x padding"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+                <p class="fontBitter fontGray">
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <br/>
+    <p class="text-center fontGray fontBitter">©2015 Vincent Song. All Rights Reserved.</p>
+    <br/>
+</footer>
+
+</html>

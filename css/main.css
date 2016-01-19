@@ -1,0 +1,266 @@
+    .vertical-center {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        /* align the inline(-block) elements horizontally */
+    }
+
+    .centeringimage{
+        display:inline-block;
+    }
+    
+    .firstbackground {
+        background-image: url('images/testpicture.jpeg');
+        display: table;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .secondbackground {
+        background-image: url('images/UMD3.jpg');
+        display: table;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .contactinfobackground {
+        background-image: url('images/footer.jpeg');
+        display: table;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .secondinner {
+        min-height: 400px;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .logo {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url('images/mylogo.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+    
+    .navbar {
+        margin: 0px;
+    }
+    
+    .nikeimage {
+        background-image: url('images/transparentnike.png');
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .inner {
+        min-height: 100vh;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .animated {
+        -webkit-animation-duration: 5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    
+    @-webkit-keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .fadeInUp {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+    
+    .jumbotron {
+        padding-bottom: 50px !important;
+        margin-bottom: 0px !important;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    .animatedText {
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    
+    @-webkit-keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+    }
+    
+    @-webkit-keyframes example {}
+    
+    .description {
+        font-size: 30px;
+        letter-spacing: -0.05em;
+        width: auto;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .picture {
+        margin-top: 30vh;
+        z-index: 1;
+        -moz-box-shadow: 0px 0px 0px 1px #e8e6e6;
+        /* Firefox */
+        
+        -webkit-box-shadow: 0px 0px 0px 15px #e8e6e6;
+        /* Safari, Chrome */
+        
+        box-shadow: 0px 0px 0px 5px #e8e6e6;
+        /* CSS3 */
+    }
+    
+    .whitetext {
+        font-size: 50px;
+        letter-spacing: -0.05em;
+        width: auto;
+        font-weight: 600;
+        color: white;
+        text-shadow:
+        /* Outline 1 */
+        
+        -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000,
+    }
+    
+    .smallwhitetext {
+        color:white;
+    }
+
+    .smallgraytext {
+        color: gray;
+    }
+    
+    .hello {
+        font-size:64px;
+        letter-spacing: -0.05em;
+        width: auto;
+        font-weight: 600;
+        color: #fff !important;
+    }
+    
+    .titletext {
+        font-size: 64px;
+        letter-spacing: -0.05em;
+        width: auto;
+        font-weight: 600;
+        color: #fff;
+        text-shadow:
+        /* Outline 1 */
+        
+        -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000,
+    }
+    
+    .padding {
+        padding-left: 1em;
+        padding-right: 1em;
+    }   
+
+    .backgroundwhite{
+        background-color: white;   
+    }
+
+    .fontBitter {
+     font-family: 'Bitter', serif !important;
+    }
+
+    a {
+       color:#7BDAEE; 
+    }
+    
+    .fontGray{
+     color:#8e8e8e !important
+    }
+
+    .fontBlue{
+       color:#7BDAEE;  
+    }
+
+    p{
+        
+    }
