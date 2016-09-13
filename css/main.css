@@ -29,6 +29,7 @@ body {
   height: 100%;
   color: #0066ff;
   text-align: left;
+  position: relative;
 }
 
 #left p {
@@ -80,6 +81,11 @@ a {
 
 a:hover {
   color: yellow;
+}
+
+.vertical-center {
+  position: absolute;
+  top:15%;
 }
 
 @media screen and (max-width: 975px) {
